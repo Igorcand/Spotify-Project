@@ -1,6 +1,7 @@
 /* ------------ Layout ------------*/
 html, body, #home{
     height: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -73,13 +74,29 @@ nav.navbar-transparente{
     padding: 20px 0
 }
 
+#recursos{
+    padding: 20px 0;
+    color: white
+}
+
 #servicos h2, h3{
     color: #7c2578
 }
 
+#recursos h3{
+    color: #9bf0e1
+}
+#recursos h2{
+    color: white
+}
 
 .albuns{
     padding: 10px 0
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left: 80px;
 }
 
 /* TIPOGRAFIA*/
